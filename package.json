@@ -8,8 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
     "format": "npm run lint --fix & prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
-    "test": "vitest",
-    "test:run": "vitest run",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "coverage": "vitest run --coverage",
     "prepare": "husky install"
   },
