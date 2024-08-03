@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
+    "lint": "eslint src",
     "format": "npm run lint --fix & prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -16,25 +16,26 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@testing-library/react": "14.0.0",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "@vitejs/plugin-react": "3.1.0",
-    "autoprefixer": "10.4.13",
-    "eslint": "8.35.0",
-    "eslint-config-prettier": "8.7.0",
-    "eslint-config-react-app": "7.0.1",
-    "happy-dom": "8.9.0",
-    "postcss": "8.4.21",
-    "prettier": "2.8.4",
-    "tailwindcss": "3.2.7",
-    "typescript": "4.9.5",
-    "vite": "4.1.4",
-    "vitest": "0.29.2",
-    "husky": "8.0.0"
+    "@testing-library/react": "16.0.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "autoprefixer": "10.4.20",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-react": "^7.35.0",
+    "happy-dom": "14.12.3",
+    "husky": "9.1.4",
+    "postcss": "8.4.40",
+    "prettier": "3.3.3",
+    "tailwindcss": "3.4.7",
+    "typescript": "5.5.4",
+    "vite": "5.3.5",
+    "vitest": "2.0.5"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.0"
   }
 }
